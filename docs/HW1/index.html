@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>CPSC332 Everett Johnson</title>
+        <style>
+        body {background-color: rgb(218, 181, 255);}
+        </style>
+        <!-- I based these scripts and buttons off of the example at: https://www.w3schools.com/jsref/event_onclick.asp -->
+        <script>
+            function changeHeadingColorGreen(){
+                document.getElementById("heading1").style.color = "green";
+            }
+            function changeHeadingColorBlack(){
+                document.getElementById("heading1").style.color = "black";
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="heading1">CPSC332 Everett Johnson HW1</h1>
+        <p>For this course, I hope to learn a lot and become <strong>competent</strong> in developing <em>my own</em> websites. Since I have 
+            <strong>little to no experience</strong> of web development, I thought that it would be good to have more 
+            experience in working with <em>front-end</em> development. I also think it would be fun to create my own websites and better
+            <strong>understand</strong> the inner workings of said sites.
+        </p>
+        <button onclick="changeHeadingColorGreen()">CHANGE HEADING COLOR TO GREEN</button>
+        <button onclick="changeHeadingColorBlack()">CHANGE HEADING COLOR TO BLACK</button>
+        <img src="lebron.png" alt="Image of LeBron James">
+        <br/>
+        <a href="https://www.espn.com/nba/player/_/id/1966/lebronjames">Link to LeBron James image source</a>
+    </body>
+</html>
